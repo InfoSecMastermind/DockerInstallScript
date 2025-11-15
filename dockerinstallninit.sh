@@ -18,8 +18,3 @@ sudo apt update
 # Install Docker community edition
 sudo apt install -y docker-ce
 
-# Pull the Docker image, change the image below
-sudo docker pull dockerhubid/imagename:tag
-
-# Run Docker container in detached mode, run on port 443 if the image is configured as such
-sudo docker run -d -p 80:80 dockerhubid/imagename:tag
